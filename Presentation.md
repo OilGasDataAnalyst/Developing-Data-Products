@@ -1,0 +1,62 @@
+Basal Metabolic Rate (BMR) Calculator
+========================================================
+author: OilGasDataAnalyst
+date: November 18th, 2015
+
+BMR Calculator for calculating the required base level calories needed per day.  
+
+Developing Data Products Course Projects
+
+Overview
+========================================================
+
+Dieting & exercise are a core part of everyday lifestyle, however
+far too many people have no idea how many calories to properly consume. 
+
+- People often hear of 2000 calories per day, but is this correct?
+- Age, weight & gender play a role in required calories
+- Calculating this number is hard work! The BMR calculator is here 
+to save the day
+- The BMR calculator will calculate the required number of calories needed 
+per day to
+sustain one self
+
+Sample calculation
+========================================================
+The basic calculation for a female is:  
+`(10 * weight + 6.25 * height - 5 * age - 161)`  
+Using the following variables (in metric Kg & cm):  
+
+```r
+weight = 63.5; height = 182; age = 25
+```
+
+We can calculate a BMR for a female:  
+
+```r
+(10 * weight + 6.25 * height - 5 * age - 161)
+```
+
+```
+[1] 1486.5
+```
+Wow! Probably wasnt expecting that value! Thats way below the 2000 
+calories commonly heard!
+
+Look & Feel
+========================================================
+Simple to use and friendly interface
+![ScreenShot](Presentation-figure/screenshot.png)
+
+Closing Remarks
+========================================================
+- It can be hard with all the "fad" diets around to get a clear picture 
+on what to do diet wise
+- Knowing ones BMR number is invaluable, no more guestimating or consuming
+over your BMR value
+- The ease at which the BMR calculator finds ones BMR number is frighteningly fast
+- The built in conversion tool is great for Americans and rest of the world
+, so dont worry about ignoring a large user base
+- With this tool you'll save time and money from calculating those pesky patients 
+request for their BMR number
+- You'll think twice before eating that second slice of pizza!
